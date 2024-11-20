@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri Video YouTube</title>
+    <style>
+        /* Gaya untuk tata letak */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+            text-align: center;
+        }
+
+        h1 {
+            color: #444;
+        }
+
+        .video-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .video {
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            overflow: hidden;
+            width: 560px;
+            height: 315px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .video iframe {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Galeri Video YouTube</h1>
+    <div class="video-container">
+        <!-- Video pertama -->
+        <div class="video">
+            <iframe 
+                src="https://youtu.be/oHAfb1oOxAc?si=ANolQpxpfo1yEr-h" 
+                title="Video Pertama" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+        </div>
+        <!-- Video kedua -->
+        <div class="video">
+            <iframe 
+                src="https://www.youtube.com/embed/VIDEO_ID_KEDUA" 
+                title="Video Kedua" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+        </div>
+    </div>
+</body>
+</html>
